@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    overflow:hidden;
+    background:black;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+canvas{
+    display:block;
+}
+
+#scoreBoard{
+    position:absolute;
+    top:15px;
+    left:20px;
+    color:white;
+    font-size:24px;
+    font-weight:bold;
+    z-index:10;
+    text-shadow:0 0 10px white;
+}
+
+#gameOver{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    color:white;
+    text-align:center;
+    display:none;
+    z-index:100;
+}
+
+#gameOver h1{
+    font-size:60px;
+    color:#00ff88;
+    text-shadow:0 0 20px #00ff88;
+}
+
+#gameOver p{
+    font-size:24px;
+    margin-top:15px;
+}
+
+#gameOver button{
+    margin-top:20px;
+    padding:12px 30px;
+    border:none;
+    border-radius:8px;
+    background:#00ff88;
+    cursor:pointer;
+    font-size:18px;
+    font-weight:bold;
+}
